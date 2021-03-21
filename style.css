@@ -16,7 +16,10 @@ button{
 }
 .main{
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    margin: 0 auto;
+    background-color: palevioletred;
     align-items: center;
+    width: fit-content;
+    padding: 20px 20px;
 }
