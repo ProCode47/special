@@ -1,17 +1,21 @@
 body {
     margin:0px;
     font-family:"Montserrat", sans-serif;
+    background-color: #f1e2159a;
 }
 
 :root {
-  --color: #DDE023 ;
+  --color: #f1e315 ;
+}
+h2{
+  font-size: 2rem;
 }
 
 header {
   width: 100%;
   height :fit-content;
-  background-color :#DDE023;
-  font-size :20px ;
+  background-color :var(--color);
+  font-size :1.5rem ;
   margin-bottom :10px ;
   text-align :center ;
 }
@@ -19,8 +23,8 @@ header {
 .button{
     width: 160px;
     height: 60px;
-    background-color:#DDE023;
-    font-size:large;
+    background-color:var(--color);
+    font-size:1.2rem;
     color:black ;
     border: none;
     outline: none;
@@ -38,7 +42,7 @@ header {
 }
 
 input {
-   border-color: #DDE023;
+   border-color: var(--color);
   width: 80%;
   height: 27px;
   margin-bottom :10px;
@@ -47,7 +51,7 @@ input {
  border-width: 1px;
   outline: none;
     border-radius: 30px 0 30px 0;
-    font-size :16px ;
+    font-size :1.5rem ;
   
 }
 .body{  
@@ -61,23 +65,29 @@ input {
   width :120px;
   height:50px ;
  
-    background-color:#DDE023;
-    font-size:large;
+    background-color:var(--color);
+    font-size:1.5rem;
     color:black ;
     border: none;
     outline: none;
     border-radius:0 30px 0 30px
 }
 .fontx{
-  font-size: 20px ;
+  font-size: 2rem ;
   font-weight: bold;
-  border-bottom-color: #DDE023;
+  border-bottom-color: var(--color);
   border-bottom-width: 2px;
   border-bottom-style: solid ;
   width:fit-content ;
   margin: 0 auto ;
 }
 
+.offers{
+  display: flex;
+  justify-content: center;
+  font-size: 1.4rem;
+  
+}
 .fa {
   color: green;
 }
@@ -87,7 +97,7 @@ li{
  margin-bottom :10px 
 }
 .contact {
-  font-size :20px ;
+  font-size :1.5rem ;
 }
 
 .fa-twitter {
