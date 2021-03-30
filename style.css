@@ -1,7 +1,7 @@
 body {
     margin:0px;
     font-family:"Montserrat", sans-serif;
-    background-color: #f1e2159a;
+    background-image: url(yellow-pattern-background-bg.jpg);
 }
 
 :root {
@@ -15,7 +15,7 @@ header {
   width: 100%;
   height :fit-content;
   background-color :var(--color);
-  font-size :1.5rem ;
+  font-size :20px ;
   margin-bottom :10px ;
   text-align :center ;
 }
@@ -24,7 +24,7 @@ header {
     width: 160px;
     height: 60px;
     background-color:var(--color);
-    font-size:1.2rem;
+    font-size:large;
     color:black ;
     border: none;
     outline: none;
@@ -51,7 +51,7 @@ input {
  border-width: 1px;
   outline: none;
     border-radius: 30px 0 30px 0;
-    font-size :1.5rem ;
+    font-size :16px ;
   
 }
 .body{  
@@ -66,7 +66,7 @@ input {
   height:50px ;
  
     background-color:var(--color);
-    font-size:1.5rem;
+    font-size:large;
     color:black ;
     border: none;
     outline: none;
@@ -97,7 +97,7 @@ li{
  margin-bottom :10px 
 }
 .contact {
-  font-size :1.5rem ;
+  font-size :20px ;
 }
 
 .fa-twitter {
