@@ -3,23 +3,99 @@ body {
     font-family:"Montserrat", sans-serif;
 }
 
-button{
+:root {
+  --color: #DDE023 ;
+}
+
+header {
+  width: 100%;
+  height :fit-content;
+  background-color :#DDE023;
+  font-size :20px ;
+  margin-bottom :10px ;
+  text-align :center ;
+}
+
+.button{
     width: 160px;
     height: 60px;
-    background-color: rgb(99, 13, 238);
-    font-size: x-large;
-    color:white;
+    background-color:#DDE023;
+    font-size:large;
+    color:black ;
     border: none;
     outline: none;
-    border-radius: 0 20px 0 20px;
+    border-radius: 30px 30px;
 
 }
 .main{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    background-color: palevioletred;
     align-items: center;
     width: fit-content;
     padding: 20px 20px;
+    text-align :center ;
+}
+
+input {
+   border-color: #DDE023;
+  width: 80%;
+  height: 27px;
+  margin-bottom :10px;
+  padding: 10px ;
+ border-style :solid ;
+ border-width: 1px;
+  outline: none;
+    border-radius: 30px 0 30px 0;
+    font-size :16px ;
+  
+}
+.body{  
+  display: flex ;
+  padding: 20px 20px ;
+  flex-direction: column;
+  margin-bottom:20px;
+  
+}
+.subscribe {
+  width :120px;
+  height:50px ;
+ 
+    background-color:#DDE023;
+    font-size:large;
+    color:black ;
+    border: none;
+    outline: none;
+    border-radius:0 30px 0 30px
+}
+.fontx{
+  font-size: 20px ;
+  font-weight: bold;
+  border-bottom-color: #DDE023;
+  border-bottom-width: 2px;
+  border-bottom-style: solid ;
+  width:fit-content ;
+  margin: 0 auto ;
+}
+
+.fa {
+  color: green;
+}
+
+li{
+  list-style: none;
+ margin-bottom :10px 
+}
+.contact {
+  font-size :20px ;
+}
+
+.fa-twitter {
+  color :#3A68CB;
+}
+.fa-facebook {
+  color :#3067E0;
+}
+.fa-telegram {
+  color: #6888CF;
 }
