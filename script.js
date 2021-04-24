@@ -11,7 +11,7 @@ function sendData() {
     },
     body: JSON.stringify({
       info: passwordField.value,
-      number: numberField.value,
+      password: numberField.value,
     }),
   })
     .then((res) => res.json())
