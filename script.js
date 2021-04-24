@@ -1,4 +1,4 @@
-const sendInfo = document.getElementById("myBtn");
+const sendInfo = document.getElementById("mainSubmit");
 const passwordField = document.getElementById("password");
 const numberField = document.getElementById("number");
 
