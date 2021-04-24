@@ -1,0 +1,63 @@
+body {
+    margin:0px;
+    font-family:"Montserrat", sans-serif;
+}
+.splash{
+    display: flex;
+    flex-direction: column;
+    padding:30px 30px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 20vh;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px 0 20px 0;
+
+}
+
+button{
+    width: 100%;
+    height: fit-content ;
+    font-size:1.5rem;
+    border-radius: 10px 10px;
+    padding: 10px 10px;
+    outline: none;
+    appearance: none;
+    border: none;
+    color: white;
+}
+
+h3{
+    text-align: center;
+    position: relative;
+
+}
+h3::before, h3::after {
+	content: "";
+	position: absolute;
+	width: 100px;
+	height: 1px;
+	background-color: black;
+	top: 50%;
+}
+h3::before {
+	right: 60%;
+}
+h3::after {
+	left: 60%;
+}
+
+h2{
+    text-align: center;
+}
+#fb{
+    background-image: linear-gradient(to right, rgb(31, 31, 233) , rgb(79, 79, 224));
+}
+#gg{
+    background-image: linear-gradient(to right, rgb(233, 22, 22) , rgb(218, 69, 58));
+}
+
+h4{
+    margin-left: 20px;
+    font-size:20px;
+}
